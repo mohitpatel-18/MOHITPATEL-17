@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Blink E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sky Blink</h1>
+    </header>
+    <main>
+        <section id="products">
+            <div class="product">
+                <h2>Smartphone</h2>
+                <p>$699</p>
+                <button onclick="buyProduct('smartphone', 699)">Buy Now</button>
+            </div>
+            <div class="product">
+                <h2>Laptop</h2>
+                <p>$999</p>
+                <button onclick="buyProduct('laptop', 999)">Buy Now</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
